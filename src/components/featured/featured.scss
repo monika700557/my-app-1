@@ -3,7 +3,7 @@
    background-color: white;
     box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
     padding: 10px;
-    height:60vh;
+    height:100vh;
     border-radius: 10px;
   
     .top {
@@ -15,9 +15,10 @@
   
       .title {
         font-size: 17px;
-        font-weight: 500;
+        font-weight: 600;
         padding: 1rem;
         color: black;
+        width: 10rem;
        
     }
     }
@@ -96,3 +97,23 @@
 
   }
  
+
+  .body-header{
+    display: flex;
+    gap: 32px;
+    top: 30px;
+    padding: 10px;
+  }
+  .body-header-text{
+    line-height: 20px;
+  }
+  .body-header-span{
+    font-family: circularstd, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+  }
+  p.body-header-p {
+    font-size: 25px;
+    font-weight: 500;
+}
