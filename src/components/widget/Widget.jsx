@@ -37,7 +37,7 @@ const Widget = ({ type }) => {
           <div className="text-container">
             <ArrowDownwardOutlinedIcon 
               className="text-icon" 
-              style={{ color: "red", fontSize: "20px" }}
+              style={{ color: "red", fontSize: "15px",marginBottom:"1px"}}
               
             />
              <span className="text" style={{color: "red" , fontSize:"11px", fontWeight: "700"}}> 1.15%</span>
@@ -74,7 +74,7 @@ const Widget = ({ type }) => {
             <div className="text-container">
               <ArrowUpwardOutlinedIcon  
                 className="text-icon" 
-                style={{ color: "green", fontSize: "20px" }}
+                style={{ color: "green", fontSize: "15px",marginBottom:"1px" }}
               />
          <span className="text" style={{color: "green" , fontSize:"11px", fontWeight: "700"}}> 1.15%</span>
               <span className="text-common">since last week</span>
@@ -105,7 +105,7 @@ const Widget = ({ type }) => {
           <div className="text-container">
             <ArrowUpwardOutlinedIcon  
               className="text-icon" 
-              style={{ color: "green", fontSize: "20px" }}
+              style={{ color: "green", fontSize: "15px",marginBottom:"1px" }}
             />
           
           <span className="text" style={{color: "green" , fontSize:"11px", fontWeight: "700"}}> 1.15%</span>
@@ -141,7 +141,7 @@ const Widget = ({ type }) => {
           <div className="text-container">
             <ArrowDownwardOutlinedIcon 
               className="text-icon" 
-              style={{ color: "red", fontSize: "20px" }}
+              style={{ color: "red", fontSize: "15px",marginBottom:"1px" }}
             />
              <span className="text" style={{color: "red" , fontSize:"11px", fontWeight: "700"}}> 1.15%</span>
              <span className="text-common">since last week</span>
