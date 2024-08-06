@@ -47,3 +47,11 @@
   flex-direction: column;
 
 }
+.text-blue-custom {
+  color: rgba(118, 56, 255); // Custom blue color with 50% opacity
+}
+
+/* Custom color class for dark red */
+.text-red-custom {
+  color: red; // Dark red with 90% opacity
+}

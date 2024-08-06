@@ -21,11 +21,11 @@ const chartItems = [
 const getColorClass = (color) => {
   switch (color) {
     case "blue":
-      return "text-blue-500";
+      return "text-blue-custom";
     case "green":
       return "text-green-500";
     case "red":
-      return "text-red-500";
+      return "text-red-custom";
     default:
       return "text-gray-500"; // Fallback color
   }
@@ -76,13 +76,15 @@ const Chart = () => {
       </div>
 
       <div className="chart-body">
-        <ApexCharts
-          type="donut"
-          width={444}
-          height={350}
-          series={medals}
-          options={chartOptions}
-        />
+      <div style={{ marginTop: '1.5rem' }}>
+    <ApexCharts
+      type="donut"
+      width={444}
+      height={350}
+      series={medals}
+      options={chartOptions}
+    />
+  </div>
          <div className="flex items-center justify-center gap-x-6 p-4 text-[#2f2e2e]">
           {chartItems.map((item, index) => (
             <div className="chart-item" key={index}>

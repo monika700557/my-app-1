@@ -57,7 +57,7 @@ const Featured = () => {
         bar: {
           horizontal: false,
           endingShape: 'rounded',
-          columnWidth: '45%', 
+          columnWidth: '45%',
         },
       },
       dataLabels: {
@@ -128,7 +128,8 @@ const Featured = () => {
           options={state.options}
           series={state.series}
           type="bar"
-          width="600"
+          width="649"
+          height="350"
           
           
       

@@ -1,5 +1,6 @@
 .widget {
-    display: block;
+      margin: auto;
+    display: inline-block;
     justify-content: space-between;
     /* flex: 1 1; */
     padding: 1rem;
@@ -8,7 +9,7 @@
     height: 22vh;
     background-color: white;
     position: relative;
-    width: 100%;
+    width: 24%;
 
     .widget_icon{
       align-items: center;
