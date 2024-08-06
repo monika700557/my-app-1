@@ -14,11 +14,12 @@
       border-bottom: 1px solid rgba(0, 0, 0, .125) !important;
   
       .title {
-        font-size: 17px;
+        font-size: 1em;
         font-weight: 600;
         padding: 1rem;
-        color: black;
-        width: 10rem;
+        color: #2c3038;
+        width: 100%;
+        line-height: 1rem;
        
     }
     }
@@ -99,22 +100,29 @@
   }
  
 
-  .body-header{
+  .body-header {
     display: flex;
-    gap: 32px;
+    gap: 31px;
     top: 30px;
     padding: 10px;
+    margin-top: 10px;
+    flex-direction: row;
+    font-family: circularstd, sans-serif;
   }
   .body-header-text{
-    line-height: 20px;
+    line-height: 22px;
   }
   .body-header-span{
     font-family: circularstd, sans-serif;
     font-size: 13px;
-    font-weight: 400;
-    color: black;
+    font-weight: 500;
+
   }
   p.body-header-p {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
+  }
+  .apexcharts-text tspan {
+    font-family: inherit;
+    font-size: 10px;
 }

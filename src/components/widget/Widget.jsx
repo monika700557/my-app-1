@@ -24,9 +24,11 @@ const Widget = ({ type }) => {
             style={{
               color: "#ffb800",
               backgroundColor: "#ffeec3",
-              fontSize: '40px', 
-              borderRadius: "4px",
-              padding: "6px"
+              fontSize: '1.875rem', 
+              borderRadius: "10px",
+              padding: "10px",
+              height: "3.5rem",
+              width: "3.5rem"
             }}
           />
         ),
@@ -59,9 +61,11 @@ const Widget = ({ type }) => {
             style={{
               backgroundColor: "#d1f3ff",
               color: "#42cdff",
-              fontSize: '40px', 
-              borderRadius: "4px",
-              padding: "6px",
+              fontSize: '1.875rem', 
+              borderRadius: "10px",
+              padding: "10px",
+              height: "3.5rem",
+              width: "3.5rem"
             }}
             />
           ),
@@ -89,7 +93,11 @@ const Widget = ({ type }) => {
         icon: (
           <DescriptionOutlinedIcon
             className="icon"
-            style={{ backgroundColor: "#ceffd5", color: "#52fb6a", fontSize: '40px', borderRadius: "4px" , padding: "6px" }}
+            style={{ backgroundColor: "#ceffd5", color: "#52fb6a",  fontSize: '1.875rem', 
+              borderRadius: "10px",
+              padding: "10px",
+              height: "3.5rem",
+              width: "3.5rem" }}
           />
         ),
         progress: 80,
@@ -120,9 +128,11 @@ const Widget = ({ type }) => {
             style={{
               backgroundColor: "#fccaff",
               color: "#f555ff",
-              fontSize: '40px', 
-              borderRadius: "4px",
-              padding: "6px",
+              fontSize: '1.875rem', 
+              borderRadius: "10px",
+              padding: "10px",
+              height: "3.5rem",
+              width: "3.5rem"
             }}
           />
         ),

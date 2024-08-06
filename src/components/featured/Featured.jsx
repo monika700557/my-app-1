@@ -42,7 +42,7 @@ const Featured = () => {
           style: {
             color: '#000',
             fontSize: '8px',
-            fontFamily: 'Arial',
+            fontFamily: 'circularstd, sans-serif',
            
           },
           
@@ -129,6 +129,8 @@ const Featured = () => {
           series={state.series}
           type="bar"
           width="600"
+          
+          
       
          
         />
