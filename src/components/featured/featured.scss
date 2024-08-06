@@ -3,7 +3,7 @@
    background-color: white;
     box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
     padding: 10px;
-    height:100vh;
+    height:88vh;
     border-radius: 10px;
   
     .top {
@@ -86,15 +86,16 @@
   }
 
 
-  .dropdown-feature{
-    
-  }
   #dropdown-basic{
     background-color: transparent;
     color: black;
     border-color: #e7eaf3 ;
-    margin-left: 23rem;
-
+    font-size: 14px;
+  }
+  .feature-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 82%;
   }
  
 

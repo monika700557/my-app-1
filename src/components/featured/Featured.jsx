@@ -91,6 +91,7 @@ const Featured = () => {
     <div className="featured">
       <div className="top">
         <h5 className="title">Sales Analytics</h5>
+        <div className="feature-container">
         <Dropdown className="dmm">
           <Dropdown.Toggle variant="success" id="dropdown-basic">
             Monthly
@@ -103,10 +104,11 @@ const Featured = () => {
             ))}
           </Dropdown.Menu>
         </Dropdown>
+        </div>
         <MoreVertIcon fontSize="small" />
       </div>
 
-      <div className="card-body">
+      <div className="feature-body">
         <div className="body-header">
           {metrics.map((metric, index) => (
             <div className="body-header-text" key={index}>

@@ -5,9 +5,16 @@
     padding: 10px;
     color: white;
     border-radius: 10px;
+    margin-left: 28px;
+
+  
   
     .title {
-      margin-bottom: 5px;
+      font-size: 17px;
+    font-weight: 600;
+    padding: 1rem;
+    color: black;
+    width: 100%;
     }
   
     .chartGrid {
@@ -17,3 +24,25 @@
   .chartm {
     margin-top: 5px !important;
   }
+  .chart-top {
+    border-bottom: 1px solid rgba(0, 0, 0, .125) !important;
+    height: 10vh;
+    display: flex;
+}
+#dropdown-basics{
+  background-color: transparent;
+  color: black;
+  border-color: #e7eaf3 ;
+  font-size: 14px;
+  margin-top: 8px;
+}
+.chart-dropdown {
+  display: flex;
+  justify-content: flex-end;
+  width: 82%;
+}
+
+.chart-item {
+  flex-direction: column;
+
+}
